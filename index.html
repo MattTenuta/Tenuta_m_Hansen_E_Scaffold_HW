@@ -1,3 +1,7 @@
+<!-- Tylen-Ale Beer Website
+by: Evan Hansen and Matthew Tenuta
+INDEX PAGE
+Users will encounter this page after landing page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +12,19 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
-<body>
-    <section id="topBar"></section> 
-
+<body> 
     <div id="siteContainer">
-        <header id="mainHeader">
-            <div id="logo"><p>Logo</p></div> <!--end logo-->
-            <nav id="mainNav"><p>Nav</p></nav><!-- end mainNav -->
-        </header>
+        <section>
+            <!-- 
+            Needed h2 headings here
+            - Evan
+            -->
+            <h2 class="hidden">Main Navigation</h2>
+            <header id="mainHeader">
+                <div id="logo"><p>Logo</p></div> <!--end logo-->
+                <nav id="mainNav"><p>Nav</p></nav><!-- end mainNav -->
+            </header>
+        </section>
 
         <section>
             <div>
@@ -23,28 +32,38 @@
             </div>
         </section>
 
-        <section id="promo">
-            <div id="promoText"><p>About Text</p></div><!-- end promoText -->
+        <!-- 
+        Ok so fun fact, IDs can only be used once. Changed all the useless IDs here to classes otherwise it simply won't work
+        - Evan
+         -->
+        <section class="promo">
+            <h2 class="hidden">Promo 1</h2>
+            <div class="promoText"><p>About Text</p></div><!-- end promoText -->
         </section> <!--end promo-->
 
-        <section id="promo2">
-            <div id="promoText2"><p>About Text that Wraps</p></div><!-- end promoText -->
-            <div id="promoImage2"><p>Beer Image</p></div><!-- end promoImage -->
+        <section class="promo2">
+            <h2 class="hidden">Promo 2</h2>
+            <div class="promoText2"><p>About Text that Wraps</p></div><!-- end promoText -->
+            <div class="promoImage2"><p>Beer Image</p></div><!-- end promoImage -->
         </section><!-- end Promo -->
 
         <section>
+            <h2 class="hidden">Why Choose</h2>
             <div>
                 <h2 class="head">Why Choose Tylen-Ale?</h2>
             </div>
         </section>
 
-        <section id="promo">
-            <div id="promoText"><p>Why Choose Text</p></div><!-- end promoText -->
+        <section class="promo">
+            <h2 class="hidden">Why Choose Reason</h2>
+            <div class="promoText"><p>Why Choose Text</p></div><!-- end promoText -->
         </section> <!--end promo-->
 
-        <section id="promo">
-            <div id="promoText3"><p>Why Choose Text</p></div><!-- end promoText -->
-            <div id="promoImage"><p>Beer Image</p></div><!-- end promoImage -->
+        
+        <section class="promo">
+            <h2 class="hidden">Why Choose...and more!</h2>
+            <div class="promoText3"><p>Why Choose Text</p></div><!-- end promoText -->
+            <div class="promoImage"><p>Beer Image</p></div><!-- end promoImage -->
         </section><!-- end Promo -->
     </div><!--end siteContainer-->
 
