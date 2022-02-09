@@ -125,7 +125,7 @@ a:hover, a:active {
 
  #footer {
      background-color: rgb(75, 75, 75);
-     width: 9999px;
+     width: 1850px;
      height: 400px;
      padding: 2em;
  }
@@ -134,7 +134,7 @@ a:hover, a:active {
      background-color: #000;
      float: left;
      height: 100px;
-     width: 150px;
+     width: 300px;
      text-align: center;
  }
 
