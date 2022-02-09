@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .background {
-    background-color: aqua;
+    background-color: rgb(40, 17, 104);
 }
 
 /* _____________________________________
@@ -22,6 +22,10 @@
           grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
     }
 
+    .hidden {
+       display: none;
+    }
+
     .one-item {
        display: grid;
        grid-column: 2 / span 2;
@@ -32,8 +36,18 @@
        display: grid;
        grid-column: 2 / span 2;
        grid-template-columns: repeat(2, 1fr);
-       justify-content: space-evenly;
     }
+
+    .two-items a {
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      font-size: 6em;
+      padding: 1em;
+      line-height: 100px;
+      background: #000;
+      /* width: 350px; */
+   }
 
 h2 {
     color: #fff;

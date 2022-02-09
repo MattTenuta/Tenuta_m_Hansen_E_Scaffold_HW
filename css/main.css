@@ -76,49 +76,49 @@ a:hover, a:active {
    width: 500px;
 }
 
-#promo {
+.promo {
    margin-top: 20px;
    overflow: hidden;
    padding-bottom: 40px;
 }
 
 /* Get rid of this, here just to give different height to promo */
-#promo p {
+.promo p {
    line-height: 250px;
 }
 
-#promoText {
+.promoText {
     margin-left: 100px;
     width: 700px;
 }
 
-#promoImage {
+.promoImage {
    float: right;
    width: 280px;
 }
 
-#promo2 {
+.promo2 {
     margin-top: 20px;
     overflow: hidden;
     padding-bottom: 40px;
  }
  
  /* Get rid of this, here just to give different height to promo */
- #promo2 p {
+ .promo2 p {
     line-height: 250px;
  }
  
- #promoText2 {
+ .promoText2 {
     float: right;
     width: 600px;
  }
  
- #promoImage2 {
+ .promoImage2 {
     float: left;
     width: 280px;
  }
 
- #promoText3 {
+ .promoText3 {
     float: left;
     width: 600px;
  }
